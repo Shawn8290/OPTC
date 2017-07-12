@@ -1,5 +1,4 @@
-$(function() {
-	var DATA = [
+var DATA = [
 	{"CARD_NO": "0001", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "2", "CARD_COST": "1", "SCOKET_COUNT": "0", "MAX_LV": "5", "HP_MAX": "134", "ATK_MAX": "68", "CURE_MAX": "15", "LV_1": "3", "LV_MAX": "2", "SKILL_DESC": "敵單體角色攻擊力×5倍的力屬性傷害", "CAP_DESC": "無", "CREW_DESC": "無", "TO_GET": "初始角色", "BOOK": "無(數據為攻略本資料)", "LIBERATION": "×"}
 	, {"CARD_NO": "0002", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "3", "CARD_COST": "4", "SCOKET_COUNT": "0", "MAX_LV": "20", "HP_MAX": "510", "ATK_MAX": "249", "CURE_MAX": "49", "LV_1": "12", "LV_MAX": "9", "SKILL_DESC": "敵單體角色攻擊力×7倍的力屬性傷害", "CAP_DESC": "全員的攻擊力1.5倍", "CREW_DESC": "無", "TO_GET": "由NO.001進化、主線威士忌山峰-15話、虹石抽卡", "BOOK": "必殺本：菜鳥巴奇雙週", "LIBERATION": "×"}
 	, {"CARD_NO": "0003", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "4", "CARD_COST": "7", "SCOKET_COUNT": "2", "MAX_LV": "35", "HP_MAX": "975", "ATK_MAX": "522", "CURE_MAX": "105", "LV_1": "23", "LV_MAX": "15", "SKILL_DESC": "敵單體角色攻擊力×15倍的力屬性傷害", "CAP_DESC": "全員的攻擊力1.5倍", "CREW_DESC": "無", "TO_GET": "由NO.002進化、虹石抽卡", "BOOK": "必殺本：老鳥、高手巴奇雙週", "LIBERATION": "雙週：和服魯夫、爆炸頭魯夫、萬聖節魯夫： 降臨：惡夢魯夫： 活動副本：所有夏副本亂入、茶點魯夫"}
@@ -1620,5 +1619,4 @@ $(function() {
 	, {"CARD_NO": "1618", "CARD_ATTR": "力", "CARD_TYPE": "野心 格闘", "STARS": "5", "CARD_COST": "30", "SCOKET_COUNT": "4", "MAX_LV": "99", "HP_MAX": "3002", "ATK_MAX": "1501", "CURE_MAX": "0", "LV_1": "24", "LV_MAX": "17", "SKILL_DESC": "力，技，知屬性腳色的自屬性插槽以外隨機替換，2回合間，力，技，知屬性的攻擊力1.75倍", "CAP_DESC": "力，技，知屬性的攻擊力2.5倍", "CREW_DESC": "自身以外的腳色使用必殺技時，自身必殺技CD1回合縮短", "TO_GET": "由NO.1617進化、虹石抽卡", "BOOK": "", "LIBERATION": "競技場：摩利亞"}
 	, {"CARD_NO": "1619", "CARD_ATTR": "", "CARD_TYPE": "", "STARS": "", "CARD_COST": "", "SCOKET_COUNT": "", "MAX_LV": "", "HP_MAX": "", "ATK_MAX": "", "CURE_MAX": "", "LV_1": "17", "LV_MAX": "13", "SKILL_DESC": "全員的體力減80%，1回合間，打突類角色的攻擊力2倍", "CAP_DESC": "體力30%以下時，打突類角色的攻擊力2.5倍", "CREW_DESC": "無", "TO_GET": "限時虹石抽卡", "BOOK": "", "LIBERATION": "競技場：基德"}
 	, {"CARD_NO": "1620", "CARD_ATTR": "", "CARD_TYPE": "", "STARS": "", "CARD_COST": "", "SCOKET_COUNT": "", "MAX_LV": "", "HP_MAX": "", "ATK_MAX": "", "CURE_MAX": "", "LV_1": "17", "LV_MAX": "13", "SKILL_DESC": "全員的體力減80%，1回合間，打突類角色的攻擊力2倍", "CAP_DESC": "打突類角色的攻擊力2.5倍，體力30%以下時，打突類角色的攻擊力3倍", "CREW_DESC": "無", "TO_GET": "由NO.1619進化、限時虹石抽卡", "BOOK": "", "LIBERATION": "競技場：基德"}
-	];
-})();	
+	];	
