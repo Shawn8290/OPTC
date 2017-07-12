@@ -1,70 +1,79 @@
-<div class="keyword" style="font-size: 200%">
-  <p>屬性：
-    <label><input type="checkbox" name="chkAttr" value="力"> 力</label>
-    <label><input type="checkbox" name="chkAttr" value="速"> 速</label>
-    <label><input type="checkbox" name="chkAttr" value="技"> 技</label>
-    <label><input type="checkbox" name="chkAttr" value="心"> 心</label>
-    <label><input type="checkbox" name="chkAttr" value="知"> 知</label>
-  </p>
-  <br>
-  <p>類別：
-    <br>    
-    <label><input type="checkbox" name="chkType" value="格鬪"> 格鬪</label>
-    <label><input type="checkbox" name="chkType" value="斬擊"> 斬擊</label>
-    <label><input type="checkbox" name="chkType" value="打突"> 打突</label>
-    <label><input type="checkbox" name="chkType" value="射擊"> 射擊</label>
-    <br>
-    <label><input type="checkbox" name="chkType" value="自由"> 自由</label>
-    <label><input type="checkbox" name="chkType" value="博識"> 博識</label>
-    <label><input type="checkbox" name="chkType" value="野心"> 野心</label>
-    <label><input type="checkbox" name="chkType" value="強韌"> 強韌</label>
-  </p>
-  <br>
-  <p>cost：
-    <label><input type="radio" name="rdoCost" value="全部" checked> 全部</label>
-    <label><input type="radio" name="rdoCost" value="20以下"> 20以下</label>
-    <label><input type="radio" name="rdoCost" value="50以上"> 50以上</label>
-  </p>
-  <br>
-  <p>插槽：
-    <label><input type="checkbox" name="chkSocket" value="5"> 5</label>
-    <label><input type="checkbox" name="chkSocket" value="4"> 4</label>
-    <label><input type="checkbox" name="chkSocket" value="3"> 3</label>
-    <label><input type="checkbox" name="chkSocket" value="2"> 2</label>
-    <label><input type="checkbox" name="chkSocket" value="1"> 1</label>
-  </p>
-  <br>
-  <p>★數：
-    <label><input type="checkbox" name="chkStar" value="6"> 6</label>
-    <label><input type="checkbox" name="chkStar" value="5"> 5</label>
-    <label><input type="checkbox" name="chkStar" value="4"> 4</label>
-    <label><input type="checkbox" name="chkStar" value="3"> 3</label>
-    <label><input type="checkbox" name="chkStar" value="2"> 2</label>
-    <label><input type="checkbox" name="chkStar" value="1"> 1</label>
-  </p>
-  <br>  
-  <p>卡片來源：
-    <br>
-    <label><input type="checkbox" name="chkGet" value="主線">主線</label>    
-    <label><input type="checkbox" name="chkGet" value="雙週">雙週</label>
-    <label><input type="checkbox" name="chkGet" value="降臨">降臨</label>
-    <label><input type="checkbox" name="chkGet" value="競技場">競技場</label>
-    <br>
-    <label><input type="checkbox" name="chkGet" value="抽卡">抽卡</label>
-    <label><input type="checkbox" name="chkGet" value="進化">進化</label>
-    <label><input type="checkbox" name="chkGet" value="超進化">超進化</label>
-  </p>
-  <br>
-  <input type="text" placeholder="卡片編號" autofocus name="txtCardNo">
-  <input type="button" value="搜尋">
-  <input type="button" value="清除">
-</div>
-<br>
+<html>
+<head>
+	<script type="text/javascript" src="OPTC.js"></script>
+	<link rel="stylesheet" type="text/css" href="OPTC.css">
+</head>
+<script src=yourpath.js></script>
+	<body>
+		<div class="keyword" style="font-size: 200%">
+		<p>屬性：
+			<label><input type="checkbox" name="chkAttr" value="力"> 力</label>
+			<label><input type="checkbox" name="chkAttr" value="速"> 速</label>
+			<label><input type="checkbox" name="chkAttr" value="技"> 技</label>
+			<label><input type="checkbox" name="chkAttr" value="心"> 心</label>
+			<label><input type="checkbox" name="chkAttr" value="知"> 知</label>
+		</p>
+		<br>
+		<p>類別：
+			<br>    
+			<label><input type="checkbox" name="chkType" value="格鬪"> 格鬪</label>
+			<label><input type="checkbox" name="chkType" value="斬擊"> 斬擊</label>
+			<label><input type="checkbox" name="chkType" value="打突"> 打突</label>
+			<label><input type="checkbox" name="chkType" value="射擊"> 射擊</label>
+			<br>
+			<label><input type="checkbox" name="chkType" value="自由"> 自由</label>
+			<label><input type="checkbox" name="chkType" value="博識"> 博識</label>
+			<label><input type="checkbox" name="chkType" value="野心"> 野心</label>
+			<label><input type="checkbox" name="chkType" value="強韌"> 強韌</label>
+		</p>
+		<br>
+		<p>cost：
+			<label><input type="radio" name="rdoCost" value="全部" checked> 全部</label>
+			<label><input type="radio" name="rdoCost" value="20以下"> 20以下</label>
+			<label><input type="radio" name="rdoCost" value="50以上"> 50以上</label>
+		</p>
+		<br>
+		<p>插槽：
+			<label><input type="checkbox" name="chkSocket" value="5"> 5</label>
+			<label><input type="checkbox" name="chkSocket" value="4"> 4</label>
+			<label><input type="checkbox" name="chkSocket" value="3"> 3</label>
+			<label><input type="checkbox" name="chkSocket" value="2"> 2</label>
+			<label><input type="checkbox" name="chkSocket" value="1"> 1</label>
+		</p>
+		<br>
+		<p>★數：
+			<label><input type="checkbox" name="chkStar" value="6"> 6</label>
+			<label><input type="checkbox" name="chkStar" value="5"> 5</label>
+			<label><input type="checkbox" name="chkStar" value="4"> 4</label>
+			<label><input type="checkbox" name="chkStar" value="3"> 3</label>
+			<label><input type="checkbox" name="chkStar" value="2"> 2</label>
+			<label><input type="checkbox" name="chkStar" value="1"> 1</label>
+		</p>
+		<br>  
+		<p>卡片來源：
+		<br>
+			<label><input type="checkbox" name="chkGet" value="主線">主線</label>    
+			<label><input type="checkbox" name="chkGet" value="雙週">雙週</label>
+			<label><input type="checkbox" name="chkGet" value="降臨">降臨</label>
+			<label><input type="checkbox" name="chkGet" value="競技場">競技場</label>
+		<br>
+			<label><input type="checkbox" name="chkGet" value="抽卡">抽卡</label>
+			<label><input type="checkbox" name="chkGet" value="進化">進化</label>
+			<label><input type="checkbox" name="chkGet" value="超進化">超進化</label>
+		</p>
+		<br>
+			<input type="text" placeholder="卡片編號" autofocus name="txtCardNo">
+			<input type="button" value="搜尋">
+			<input type="button" value="清除">
+		</div>
+		<br>
 
-<div id="result" style="display: none"></div>
+		<div id="result" style="display: none"></div>
 
-<p>資料更新時間: 2017-06-05 11:15</p>
-<p>資料更新進度: 至No.1620</p>
-<p>資料來源: <a target="_blank" href="https://docs.google.com/spreadsheets/d/1YtYPKn7nuIwmBxmkWUM-AjKt2mDIHfCAL2nu4LzcYJQ/edit#gid=1139028470">OPTC 角色圖鑑</a>
-</p>
-<p>修改自: <a target="_blank" href="http://jsfiddle.net/7ckc75ox/show/">副本必殺掉落速查</a></p>
+		<p>資料更新時間: 2017-06-05 11:15</p>
+		<p>資料更新進度: 至No.1620</p>
+		<p>資料來源: <a target="_blank" href="https://docs.google.com/spreadsheets/d/1YtYPKn7nuIwmBxmkWUM-AjKt2mDIHfCAL2nu4LzcYJQ/edit#gid=1139028470">OPTC 角色圖鑑</a>
+		</p>
+		<p>修改自: <a target="_blank" href="http://jsfiddle.net/7ckc75ox/show/">副本必殺掉落速查</a></p>
+	</body>
+</html>
