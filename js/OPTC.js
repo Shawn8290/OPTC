@@ -1,1 +1,0 @@
-var keyword = $('input[type=button]').click(function() { alert("123"); }
