@@ -1,4 +1,4 @@
-var DATA = [
+window.CData = [
 	{"CARD_NO": "0001", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "2", "CARD_COST": "1", "SCOKET_COUNT": "0", "MAX_LV": "5", "HP_MAX": "134", "ATK_MAX": "68", "CURE_MAX": "15", "LV_1": "3", "LV_MAX": "2", "SKILL_DESC": "敵單體角色攻擊力×5倍的力屬性傷害", "CAP_DESC": "無", "CREW_DESC": "無", "TO_GET": "初始角色", "BOOK": "無(數據為攻略本資料)", "LIBERATION": "×"}
 	, {"CARD_NO": "0002", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "3", "CARD_COST": "4", "SCOKET_COUNT": "0", "MAX_LV": "20", "HP_MAX": "510", "ATK_MAX": "249", "CURE_MAX": "49", "LV_1": "12", "LV_MAX": "9", "SKILL_DESC": "敵單體角色攻擊力×7倍的力屬性傷害", "CAP_DESC": "全員的攻擊力1.5倍", "CREW_DESC": "無", "TO_GET": "由NO.001進化、主線威士忌山峰-15話、虹石抽卡", "BOOK": "必殺本：菜鳥巴奇雙週", "LIBERATION": "×"}
 	, {"CARD_NO": "0003", "CARD_ATTR": "力", "CARD_TYPE": "格鬪 -", "STARS": "4", "CARD_COST": "7", "SCOKET_COUNT": "2", "MAX_LV": "35", "HP_MAX": "975", "ATK_MAX": "522", "CURE_MAX": "105", "LV_1": "23", "LV_MAX": "15", "SKILL_DESC": "敵單體角色攻擊力×15倍的力屬性傷害", "CAP_DESC": "全員的攻擊力1.5倍", "CREW_DESC": "無", "TO_GET": "由NO.002進化、虹石抽卡", "BOOK": "必殺本：老鳥、高手巴奇雙週", "LIBERATION": "雙週：和服魯夫、爆炸頭魯夫、萬聖節魯夫： 降臨：惡夢魯夫： 活動副本：所有夏副本亂入、茶點魯夫"}
