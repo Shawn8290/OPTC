@@ -2405,7 +2405,7 @@ window.evolutions = {
     },
     1554: {
         evolution: 1555,
-        evolvers: [ 177, 80, 86, 97, 302 ]
+        evolvers: [ 117, 80, 86, 97, 302 ]
     },
     1563: {
         evolution: 1564,
@@ -2528,8 +2528,8 @@ window.evolutions = {
         evolvers: [ 118, 87, 266, 98, 303 ]
     },
     1636: {
-        evolution: 1637,
-        evolvers: [ 118, 96, 97, 301, 302 ]
+        evolution: [ 1637, 1716 ],
+        evolvers: [ [ 118, 96, 97, 301, 302 ], [ ] ]
     },
     1646: {
         evolution: 1647,
@@ -2585,34 +2585,174 @@ window.evolutions = {
     },
     1675: {
         evolution: 1676,
-        evolvers: [  ]
+        evolvers: [ 81, 81, 87, 92, 98 ]
     },
     1677: {
         evolution: 1678,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 99, 304, 104 ]
     },
     1679: {
         evolution: 1680,
-        evolvers: [  ]
+        evolvers: [ 118, 83, 85, 85, 101 ]
     },
     1681: {
         evolution: 1682,
-        evolvers: [  ]
+        evolvers: [ 78, 84, 89, 95, 100 ]
     },
     1683: {
         evolution: 1684,
-        evolvers: [  ]
+        evolvers: [ 79, 85, 90, 96, 101 ]
     },
     1685: {
         evolution: 1686,
-        evolvers: [  ]
+        evolvers: [ 82, 88, 93, 99, 104 ]
     },
     1687: {
         evolution: 1688,
+        evolvers: [ 80, 86, 91, 97, 102 ]
+    },
+    1689: {
+        evolution: 1690,
+        evolvers: [ 117, 82, 88, 99, 304 ]
+    },
+    1693: {
+        evolution: 1694,
+        evolvers: [ 118, 98, 1180, 303, 103 ]
+    },
+    1695: {
+        evolution: 1696,
+        evolvers: [ 118, 86, 266, 302, 102 ]
+    },
+    1697: {
+        evolution: 1698,
+        evolvers: [ 118, 86, 1180, 302, 267 ]
+    },
+    1699: {
+        evolution: 1700,
+        evolvers: [ 87, 94, 98, 303, 103 ]
+    },
+    1701: {
+        evolution: 1702,
+        evolvers: [ 118, 83, 85, 96, 101 ]
+    },
+    1703: {
+        evolution: 1704,
+        evolvers: [ 266, 93, 1180, 304, 104 ]
+    },
+    1705: {
+        evolution: 1706,
+        evolvers: [ 83, 84, 95, 1180, 100 ]
+    },
+    530: {
+        evolution: 1707,
+        evolvers: [ 118, 98, 303, 267 ]
+    },
+    1708: {
+        evolution: 1709,
+        evolvers: [ 116, 117, 79, 85, 96 ]
+    },
+    1710: {
+        evolution: 1711,
+        evolvers: [ 116, 117, 81, 87, 98 ]
+    },
+    1712: {
+        evolution: 1713,
+        evolvers: [ 118, 86, 97, 302, 102 ]
+    },
+    1720: {
+        evolution: 1721,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1722: {
+        evolution: 1723,
+        evolvers: [ 117, 81, 87, 98, 103 ]
+    },
+    1724: {
+        evolution: 1725,
+        evolvers: [ 117, 79, 85, 96, 101 ]
+    },
+    1726: {
+        evolution: 1727,
+        evolvers: [ 118, 87, 266, 303, 103 ]
+    },
+    1728: {
+        evolution: 1729,
+        evolvers: [ 116, 117, 78, 84, 95 ]
+    },
+    1730: {
+        evolution: 1731,
+        evolvers: [ 115, 115, 93, 99, 304 ]
+    },
+    1732: {
+        evolution: 1733,
+        evolvers: [  ]
+    },
+    1734: {
+        evolution: 1735,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    1736: {
+        evolution: 1737,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    1738: {
+        evolution: 1739,
+        evolvers: [ 118, 78, 84, 94, 95 ]
+    },
+    1740: {
+        evolution: 1741,
+        evolvers: [  ]
+    },
+    1742: {
+        evolution: 1743,
+        evolvers: [  ]
+    },
+    1744: {
+        evolution: 1745,
+        evolvers: [  ]
+    },
+    1746: {
+        evolution: 1747,
+        evolvers: [  ]
+    },
+    1748: {
+        evolution: 1749,
         evolvers: [  ]
     },
     1750: {
         evolution: 1751,
+        evolvers: [  ]
+    },
+    1752: {
+        evolution: 1753,
+        evolvers: [ 82, 88, 93, 99, 104 ]
+    },
+    1754: {
+        evolution: 1755,
+        evolvers: [ 81, 87, 92, 98, 103 ]
+    },
+    1756: {
+        evolution: 1757,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1758: {
+        evolution: 1759,
+        evolvers: [ 79, 85, 90, 96, 101 ]
+    },
+    1760: {
+        evolution: 1761,
+        evolvers: [ 80, 86, 91, 97, 102 ]
+    },
+    1192: {
+        evolution: 1764,
+        evolvers: [  ]
+    },
+    1769: {
+        evolution: 1770,
+        evolvers: [  ]
+    },
+    1771: {
+        evolution: 1772,
         evolvers: [  ]
     },
 };
