@@ -610,15 +610,15 @@ window.drops = {
             '03': [  ],
             '04': [ 1344 ],
             '05': [ 1345 ],
-            '06': [ 1346 ],
-            '07': [ 1347 ],
-            '08': [ 1348 ],
-            '09': [ 1349 ],
+            '06': [ 1346, 'skullUsopp' ],
+            '07': [ 1347, 'skullChopper' ],
+            '08': [ 1348, 'skullZoro' ],
+            '09': [ 1349, 'skullNami' ],
             '10': [  ],
-            '11': [ 1350 ],
-            '12': [ 1351 ],
-            '13': [ 1352 ],
-            '14': [ 1353 ],
+            '11': [ 1350, 'skullBrook' ],
+            '12': [ 1351, 'skullRobin' ],
+            '13': [ 1352, 'skullSanji' ],
+            '14': [ 1353, 'skullLuffy' ],
         },
         
         {
@@ -1635,6 +1635,21 @@ window.drops = {
             'All Difficulties': [ 1734, 1736, -1571, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1354 ]
         },
         
+        {
+            name: 'Battle Royale!',
+            thumb: 1766,
+            gamewith: 67118,
+            'All Difficulties': [ 1765, 1767, 1768, -1192, -1764, -520, -1115, -1184, -1190, -554, -1175, -1612, -1614, -1353, -1393 ]
+        },
+        
+        {
+            name: 'Wano Samurai!',
+            thumb: 1774,
+            condition: 'Shooter and Free Spirit characters get a boost (???x ATK boost on 30 stamina)',
+            gamewith: null,
+            'All Difficulties': [ 1773, 1775, -963, -1588, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
+        },
+        
     ],
 
             
@@ -1869,6 +1884,15 @@ window.drops = {
         },
         
         {
+            name: 'Clash Neo!! Kizaru',
+            thumb: 1780,
+            gamewith: null,
+            condition: '1 Master version and 3 Ultimate versions with different conditions. Master: Free Spirit/Striker/Powerhouse Only. Can only complete 10 times each. Ultimate: Free Spirit Only, Striker Only, and Powerhouse Only',
+            Ultimate: [ 1779 ],
+            Master: [ 1779 ]
+        },
+        
+        {
             name: 'Clash!? Impostor Straw Hat Pirates',
             showManual: true,
             global: true,
@@ -2067,7 +2091,7 @@ window.drops = {
             global: true,
             gamewith: 38237,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1257 ]
+            'All Difficulties': [ 1257, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
@@ -2076,7 +2100,7 @@ window.drops = {
             global: true,
             gamewith: 46369,
             condition: 'Has a chance of appearing at the end of ANY Raid boss when available. You MUST use the same team that you just used to complete the raid boss to fight Shanks. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1379, 952, 776 ]
+            'All Difficulties': [ 1379, 952, 776, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
@@ -2084,7 +2108,7 @@ window.drops = {
             thumb: 1530,
             gamewith: 53621,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Cavendish. Can drop a Super Evolution Skull.',
-            'All Difficulties': [ 1529 ]
+            'All Difficulties': [ 1529, 'skullSTR', 'skullDEX', 'skullQCK', 'skullPSY', 'skullINT' ]
         },
         
         {
