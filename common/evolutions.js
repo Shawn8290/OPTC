@@ -2529,7 +2529,7 @@ window.evolutions = {
     },
     1636: {
         evolution: [ 1637, 1716 ],
-        evolvers: [ [ 118, 96, 97, 301, 302 ], [ ] ]
+        evolvers: [ [ 118, 96, 97, 301, 302 ], [ 118, 83, 84, 95, 100 ] ]
     },
     1646: {
         evolution: 1647,
@@ -2837,14 +2837,134 @@ window.evolutions = {
     },
     1821: {
         evolution: 1822,
-        evolvers: [  ]
+        evolvers: [ 78, 84, 89, 95, 100 ]
     },
     1823: {
         evolution: 1824,
-        evolvers: [  ]
+        evolvers: [ 118, 84, 95, 300, 100 ]
     },
     1825: {
         evolution: 1826,
-        evolvers: [  ]
+        evolvers: [ 118, 94, 304, 304, 104 ]
+    },
+    1827: {
+        evolution: 1828,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    1829: {
+        evolution: 1830,
+        evolvers: [ 118, 88, 266, 304, 104 ],
+    },
+    1831: {
+        evolution: 1832,
+        evolvers: [ 118, 103, 98, 303, 267 ],
+    },
+    1833: {
+        evolution: 1834,
+        evolvers: [ 88, 99, 1180, 304, 104 ],
+    },
+    1835: {
+        evolution: 1836,
+        evolvers: [ 83, 94, 95, 300, 100 ],
+    },
+    1837: {
+        evolution: 1838,
+        evolvers: [ 118, 85, 96, 301, 101 ],
+    },
+    1839: {
+        evolution: 1840,
+        evolvers: [ 86, 266, 97, 302, 102 ],
+    },
+    1841: {
+        evolution: 1842,
+        evolvers: [ 117, 80, 86, 97, 102 ],
+    },
+    1843: {
+        evolution: 1844,
+        evolvers: [ 117, 78, 84, 95, 100 ],
+    },
+    1845: {
+        evolution: 1846,
+        evolvers: [ 118, 84, 266, 95, 267 ],
+    },
+    459: {
+        evolution: 1847,
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ],
+    },
+    1848: {
+        evolution: 1849,
+        evolvers: [ 117, 78, 89, 95, 100 ],
+    },
+    1850: {
+        evolution: 1851,
+        evolvers: [ 117, 80, 91, 97, 102 ],
+    },
+    1852: {
+        evolution: 1853,
+        evolvers: [ 115, 116, 117, 118, 104 ],
+    },
+    1854: {
+        evolution: 1855,
+        evolvers: [ 78, 84, 89, 95, 100 ],
+    },
+    1856: {
+        evolution: 1857,
+        evolvers: [ 81, 87, 92, 98, 103 ],
+    },
+    1858: {
+        evolution: 1859,
+        evolvers: [ 118, 88, 99, 304, 104 ],
+    },
+    1860: {
+        evolution: 1861,
+        evolvers: [  ],
+    },
+    1862: {
+        evolution: 1863,
+        evolvers: [  ],
+    },
+    1864: {
+        evolution: 1865,
+        evolvers: [  ],
+    },
+    1866: {
+        evolution: 1867,
+        evolvers: [  ],
+    },
+    1868: {
+        evolution: 1869,
+        evolvers: [  ],
+    },
+    1870: {
+        evolution: 1871,
+        evolvers: [  ],
+    },
+    1872: {
+        evolution: 1873,
+        evolvers: [  ],
+    },
+    1874: {
+        evolution: 1875,
+        evolvers: [  ],
+    },
+    1876: {
+        evolution: 1877,
+        evolvers: [  ],
+    },
+    1878: {
+        evolution: 1879,
+        evolvers: [  ],
+    },
+    1434: {
+        evolution: 1880,
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
+    },
+    718: {
+        evolution: 1881,
+        evolvers: [ 'skullINT', 118, 88, 303, 267 ],
+    },
+    2000: {
+        evolution: 2001,
+        evolvers: [ 118, 84, 266, 300, 100 ]
     },
 };
