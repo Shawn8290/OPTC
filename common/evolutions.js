@@ -2917,43 +2917,43 @@ window.evolutions = {
     },
     1860: {
         evolution: 1861,
-        evolvers: [  ],
+        evolvers: [ 118, 96, 1180, 301, 101 ],
     },
     1862: {
         evolution: 1863,
-        evolvers: [  ],
+        evolvers: [ 118, 98, 98, 303, 267 ],
     },
     1864: {
         evolution: 1865,
-        evolvers: [  ],
+        evolvers: [ 80, 86, 91, 97, 102 ],
     },
     1866: {
         evolution: 1867,
-        evolvers: [  ],
+        evolvers: [ 79, 85, 90, 96, 101 ],
     },
     1868: {
         evolution: 1869,
-        evolvers: [  ],
+        evolvers: [ 118, 266, 94, 99, 267 ],
     },
     1870: {
         evolution: 1871,
-        evolvers: [  ],
+        evolvers: [ 117, 87, 98, 303, 103 ],
     },
     1872: {
         evolution: 1873,
-        evolvers: [  ],
+        evolvers: [ 84, 95, 1180, 300, 100 ],
     },
     1874: {
         evolution: 1875,
-        evolvers: [  ],
+        evolvers: [ 85, 266, 96, 301, 101 ],
     },
     1876: {
         evolution: 1877,
-        evolvers: [  ],
+        evolvers: [ 86, 94, 97, 302, 102 ],
     },
     1878: {
         evolution: 1879,
-        evolvers: [  ],
+        evolvers: [ 118, 98, 1180, 303, 103 ],
     },
     1434: {
         evolution: 1880,
@@ -2962,6 +2962,42 @@ window.evolutions = {
     718: {
         evolution: 1881,
         evolvers: [ 'skullINT', 118, 88, 303, 267 ],
+    },
+    1882: {
+        evolution: 1883,
+        evolvers: [ 118, 80, 1180, 302, 267 ]
+    },
+    1884: {
+        evolution: 1885,
+        evolvers: [ 117, 82, 93, 99, 104 ]
+    },
+    1886: {
+        evolution: 1887,
+        evolvers: [ 117, 79, 90, 96, 101 ]
+    },
+    1888: {
+        evolution: 1889,
+        evolvers: [ 115, 116, 117, 118, 103 ]
+    },
+    1890: {
+        evolution: 1891,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1892: {
+        evolution: 1893,
+        evolvers: [ 81, 87, 82, 98, 103 ]
+    },
+    1894: {
+        evolution: 1895,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1896: {
+        evolution: 1897,
+        evolvers: [ 118, 95, 1180, 300, 100 ]
+    },
+    1898: {
+        evolution: 1899,
+        evolvers: [  ]
     },
     2000: {
         evolution: 2001,
