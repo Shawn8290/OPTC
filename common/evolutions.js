@@ -2997,10 +2997,694 @@ window.evolutions = {
     },
     1898: {
         evolution: 1899,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    1901: {
+        evolution: 1902,
+        evolvers: [ 99, 99, 1180, 304, 304 ]
+    },
+    1903: {
+        evolution: 1904,
+        evolvers: [ 85, 85, 266, 301, 301 ]
+    },
+    1905: {
+        evolution: 1906,
+        evolvers: [ 103, 103, 267, 303, 303 ]
+    },
+    1907: {
+        evolution: 1908,
+        evolvers: [ 78, 78, 83, 300, 300 ]
+    },
+    1909: {
+        evolution: 1910,
+        evolvers: [ 118, 102, 97, 102, 267 ]
+    },
+    1911: {
+        evolution: 1912,
+        evolvers: [ 88, 99, 104, 304, 1180 ]
+    },
+    1913: {
+        evolution: 1914,
+        evolvers: [ 118, 86, 97, 302, 102 ]
+    },
+    1915: {
+        evolution: 1916,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    1917: {
+        evolution: 1918,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    1919: {
+        evolution: 1920,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    1362: {
+        evolution: 1921,
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+    },
+    1751: {
+        evolution: 1922,
+        evolvers: [ 'skullQCK', 'skullQCK', 96, 301, 267 ]
+    },
+    1923: {
+        evolution: 1924,
+        evolvers: [ 118, 84, 266, 300, 100 ]
+    },
+    1925: {
+        evolution: 1926,
+        evolvers: [ 118, 88, 99, 304, 304 ]
+    },
+    720: {
+        evolution: 1927,
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
+    },
+    1035: {
+        evolution: 1928,
+        evolvers: [ 'skullQCK', 118, 85, 301, 267 ]
+    },
+    1929: {
+        evolution: 1930,
+        evolvers: [ 118, 266, 97, 302, 102 ]
+    },
+    1934: {
+        evolution: 1935,
+        evolvers: [ 118, 79, 94, 301, 267 ]
+    },
+    1936: {
+        evolution: 1937,
+        evolvers: [ 117, 82, 93, 99, 104 ]
+    },
+    1938: {
+        evolution: 1939,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    1940: {
+        evolution: 1941,
+        evolvers: [ 115, 116, 117, 118, 100 ]
+    },
+    1942: {
+        evolution: 1943,
+        evolvers: [ 118, 89, 94, 300, 100 ]
+    },
+    1944: {
+        evolution: 1945,
+        evolvers: [ 118, 98, 1180, 303, 103 ]
+    },
+    1946: {
+        evolution: 1947,
+        evolvers: [ 82, 88, 93, 99, 104 ]
+    },
+    1948: {
+        evolution: 1949,
+        evolvers: [ 81, 87, 92, 98, 103 ]
+    },
+    1950: {
+        evolution: 1951,
+        evolvers: [ 118, 87, 266, 303, 267 ]
+    },
+    1952: {
+        evolution: 1953,
+        evolvers: [ 83, 94, 99, 304, 104 ]
+    },
+    1954: {
+        evolution: 1955,
+        evolvers: [ 118, 79, 1180, 301, 101 ]
+    },
+    1956: {
+        evolution: 1957,
+        evolvers: [ 266, 78, 94, 300, 100 ]
+    },
+    1958: {
+        evolution: 1959,
+        evolvers: [ 1180, 91, 97, 302, 102 ]
+    },
+    1960: {
+        evolution: 1961,
+        evolvers: [ 116, 117, 81, 87, 98 ]
+    },
+    1962: {
+        evolution: 1963,
+        evolvers: [ 116, 117, 82, 88, 99 ]
+    },
+    1964: {
+        evolution: 1965,
+        evolvers: [ 79, 85, 90, 96, 101 ]
+    },
+    1967: {
+        evolution: 1968,
+        evolvers: [ 117, 78, 89, 95, 100 ]
+    },
+    1969: {
+        evolution: 1970,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    1971: {
+        evolution: 1972,
+        evolvers: [ 115, 116, 117, 118, 102 ]
+    },
+    1973: {
+        evolution: 1974,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    1975: {
+        evolution: 1976,
+        evolvers: [ 118, 83, 85, 301, 101 ]
+    },
+    1977: {
+        evolution: 1978,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    1979: {
+        evolution: 1980,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1981: {
+        evolution: 1982,
+        evolvers: [ 79, 85, 90, 96, 101 ]
+    },
+    1984: {
+        evolution: 1985,
+        evolvers: [ 83, 94, 95, 300, 100 ]
+    },
+    1986: {
+        evolution: 1987,
+        evolvers: [ 83, 94, 95, 300, 100 ]
+    },
+    1988: {
+        evolution: 1989,
+        evolvers: [ 118, 81, 1180, 303, 103 ]
+    },
+    1990: {
+        evolution: 1991,
+        evolvers: [ 266, 79, 94, 301, 101 ]
+    },
+    1992: {
+        evolution: 1993,
+        evolvers: [ 1180, 90, 96, 301, 101 ]
+    },
+    1994: {
+        evolution: 1995,
+        evolvers: [ 80, 86, 91, 97, 102 ]
+    },
+    1996: {
+        evolution: 1997,
+        evolvers: [ 78, 84, 89, 95, 100 ]
+    },
+    1998: {
+        evolution: 2000,
+        evolvers: [ 115, 116, 117, 118, 1999 ]
+    },
+    1999: {
+        evolution: 2000,
+        evolvers: [ 115, 116, 117, 118, 1998 ]
+    },
+    1045: {
+        evolution: 2001,
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+    },
+    2003: {
+        evolution: 2004,
+        evolvers: [ 118, 89, 95, 95, 300 ]
+    },
+    2006: {
+        evolution: 2007,
+        evolvers: [ 118, 88, 266, 99, 267 ]
+    },
+    2008: {
+        evolution: 2009,
+        evolvers: [ 117, 82, 93, 99, 104 ]
+    },
+    2010: {
+        evolution: 2011,
+        evolvers: [ 117, 82, 93, 304, 104 ]
+    },
+    2012: {
+        evolution: 2013,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
+    2014: {
+        evolution: 2015,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2016: {
+        evolution: 2017,
+        evolvers: [ 118, 94, 98, 303, 103 ]
+    },
+    2018: {
+        evolution: 2019,
+        evolvers: [ 80, 86, 91, 97, 102 ]
+    },
+    2020: {
+        evolution: 2021,
+        evolvers: [ 81, 87, 92, 98, 103 ]
+    },
+    2022: {
+        evolution: 2023,
+        evolvers: [ 118, 118, 304, 304, 267 ]
+    },
+    2024: {
+        evolution: 2025,
+        evolvers: [ 118, 118, 303, 303, 267 ]
+    },
+    2026: {
+        evolution: 2027,
+        evolvers: [ 94, 81, 87, 303, 103 ]
+    },
+    2028: {
+        evolution: 2029,
+        evolvers: [ 1180, 90, 96, 301, 101 ]
+    },
+    2030: {
+        evolution: 2031,
+        evolvers: [ 83, 266, 99, 99, 104 ]
+    },
+    2032: {
+        evolution: [ 2033, 2033, 2033 ],
+        evolvers: [ [ 115, 108, 108 ], [ 81, 108, 108 ], [ 92, 108, 108 ] ]
+    },
+    1240: {
+        evolution: 2034,
+        evolvers: [ 'skullPSY', 118, 87, 303, 267 ]
+    },
+    1391: {
+        evolution: 2035,
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+    },
+    2036: {
+        evolution: 2037,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2038: {
+        evolution: 2039,
+        evolvers: [ 115, 115, 90, 96, 301 ]
+    },
+    2040: {
+        evolution: 2041,
+        evolvers: [ 115, 115, 89, 95, 300 ]
+    },
+    2042: {
+        evolution: 2043,
+        evolvers: [ 116, 117, 82, 88, 99 ]
+    },
+    2047: {
+        evolution: 2048,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2049: {
+        evolution: 2050,
+        evolvers: [ 118, 88, 99, 304, 104 ]
+    },
+    2051: {
+        evolution: 2052,
+        evolvers: [ 117, 90, 96, 301, 101 ]
+    },
+    2059: {
+        evolution: 2060,
+        evolvers: [ 117, 78, 89, 95, 100 ]
+    },
+    2061: {
+        evolution: 2062,
+        evolvers: [ 117, 78, 89, 95, 100 ]
+    },
+    2063: {
+        evolution: 2064,
+        evolvers: [ 115, 116, 117, 118, 102 ]
+    },
+    935: {
+        evolution: 2066,
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+    },
+    2067: {
+        evolution: 2068,
+        evolvers: [ 118, 87, 98, 303, 103 ]
+    },
+    2069: {
+        evolution: 2070,
+        evolvers: [ 118, 94, 99, 304, 104 ]
+    },
+    2071: {
+        evolution: 2072,
+        evolvers: [ 83, 266, 99, 99, 104 ]
+    },
+    2073: {
+        evolution: 2074,
+        evolvers: [ 118, 266, 85, 101, 267 ]
+    },
+    2075: {
+        evolution: 2076,
+        evolvers: [ 118, 118, 97, 1180, 267 ]
+    },
+    2077: {
+        evolution: 2078,
+        evolvers: [ 83, 266, 98, 98, 103 ]
+    },
+    2079: {
+        evolution: 2080,
+        evolvers: [ 94, 1180, 300, 300, 100 ]
+    },
+    2081: {
+        evolution: 2082,
+        evolvers: [ 94, 1180, 301, 301, 101 ]
+    },
+    2083: {
+        evolution: 2084,
+        evolvers: [ 83, 85, 1180, 301, 101 ]
+    },
+    2085: {
+        evolution: 2086,
+        evolvers: [ 83, 86, 1180, 302, 102 ]
+    },
+    2096: {
+        evolution: 2097,
+        evolvers: [ 118, 96, 1180, 301, 101 ]
+    },
+    2098: {
+        evolution: 2099,
+        evolvers: [ 118, 266, 94, 1180, 267 ]
+    },
+    2100: {
+        evolution: 2101,
+        evolvers: [ 117, 84, 94, 95, 100 ]
+    },
+    2102: {
+        evolution: 2103,
+        evolvers: [ 117, 88, 93, 1180, 104 ]
+    },
+    2104: {
+        evolution: 2105,
+        evolvers: [ 117, 266, 91, 97, 102 ]
+    },
+    2106: {
+        evolution: 2107,
+        evolvers: [ 83, 83, 98, 303, 103 ]
+    },
+    2108: {
+        evolution: 2109,
+        evolvers: [ 115, 116, 117, 118, 100 ]
+    },
+    2110: {
+        evolution: 2111,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    2112: {
+        evolution: 2113,
+        evolvers: [ 118, 266, 300, 100, 267 ]
+    },
+    2114: {
+        evolution: 2115,
+        evolvers: [ 83, 87, 92, 98, 1180 ]
+    },
+    2116: {
+        evolution: 2117,
+        evolvers: [ 88, 93, 304, 1180, 104 ]
+    },
+    2118: {
+        evolution: 2119,
+        evolvers: [ 118, 79, 85, 301, 101 ]
+    },
+    2120: {
+        evolution: 2121,
+        evolvers: [ 86, 86, 266, 94, 102 ]
+    },
+    2122: {
+        evolution: 2123,
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2004: {
+        evolution: 2126,
+        evolvers: [ 'skullDoffy', 89, 95, 95, 300 ]
+    },
+    2131: {
+        evolution: 2132,
+        evolvers: [ 117, 81, 92, 98, 103 ]
+    },
+    2133: {
+        evolution: 2134,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    2136: {
+        evolution: 2137,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    1832: {
+        evolution: 2138,
+        evolvers: [ 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge', 'skullJudge' ]
+    },
+    1834: {
+        evolution: 2139,
+        evolvers: [ 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju', 'skullReiju' ]
+    },
+    1836: {
+        evolution: 2140,
+        evolvers: [ 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji', 'skullIchiji' ]
+    },
+    1838: {
+        evolution: 2141,
+        evolvers: [ 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji', 'skullNiji' ]
+    },
+    1840: {
+        evolution: 2142,
+        evolvers: [ 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji', 'skullYonji' ]
+    },
+    2143: {
+        evolution: 2144,
+        evolvers: [ 117, 80, 86, 97, 102 ]
+    },
+    2145: {
+        evolution: 2146,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    2147: {
+        evolution: 2148,
+        evolvers: [ 118, 103, 1180, 303, 267 ]
+    },
+    2149: {
+        evolution: 2150,
+        evolvers: [ 94, 1180, 300, 300, 100 ]
+    },
+    2151: {
+        evolution: 2152,
+        evolvers: [ 94, 1180, 301, 301, 101 ]
+    },
+    2153: {
+        evolution: 2154,
+        evolvers: [ 86, 86, 266, 94, 102 ]
+    },
+    2155: {
+        evolution: 2156,
+        evolvers: [ 118, 88, 99, 94, 267 ]
+    },
+    2157: {
+        evolution: 2158,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    1698: {
+        evolution: 2159,
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+    },
+    2160: {
+        evolution: 2161,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2162: {
+        evolution: 2163,
+        evolvers: [ 118, 95, 1180, 300, 100 ]
+    },
+    2164: {
+        evolution: 2165,
+        evolvers: [ 117, 79, 85, 96, 101 ]
+    },
+    2166: {
+        evolution: 2167,
+        evolvers: [ 117, 80, 86, 97, 102 ]
+    },
+    2168: {
+        evolution: 2169,
+        evolvers: [ 117, 82, 93, 99, 104 ]
+    },
+    2170: {
+        evolution: 2171,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    2172: {
+        evolution: 2173,
+        evolvers: [ 117, 81, 92, 98, 103 ]
+    },
+    2174: {
+        evolution: 2175,
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    2176: {
+        evolution: 2177,
+        evolvers: [ 117, 79, 85, 96, 101 ]
+    },
+    2180: {
+        evolution: 2181,
+        evolvers: [ 118, 103, 104, 1180, 267 ]
+    },
+    2182: {
+        evolution: 2183,
+        evolvers: [ 88, 99, 1180, 304, 104 ]
+    },
+    2184: {
+        evolution: 2185,
+        evolvers: [ 87, 98, 1180, 303, 103 ]
+    },
+    2186: {
+        evolution: 2187,
+        evolvers: [ 83, 266, 98, 303, 103 ]
+    },
+    2188: {
+        evolution: 2189,
+        evolvers: [ 83, 266, 99, 304, 104 ]
+    },
+    2190: {
+        evolution: 2191,
+        evolvers: [ 117, 88, 93, 99, 104 ]
+    },
+    2192: {
+        evolution: 2193,
+        evolvers: [ 118, 98, 1180, 303, 103 ]
+    },
+    1001: {
+        evolution: 2195,
+        evolvers: [ 'skullDEX', 118, 86, 302, 267 ]
+    },
+    2196: {
+        evolution: 2197,
+        evolvers: [ 118, 88, 266, 99, 304 ]
+    },
+    2198: {
+        evolution: 2199,
+        evolvers: [ 118, 88, 99, 304, 104 ]
+    },
+    2200: {
+        evolution: 2201,
+        evolvers: [ 118, 266, 94, 1180, 267 ]
+    },
+    2202: {
+        evolution: 2203,
+        evolvers: [ 117, 86, 266, 302, 102 ]
+    },
+    2204: {
+        evolution: 2205,
+        evolvers: [ 117, 99, 1180, 304, 104 ]
+    },
+    2206: {
+        evolution: 2207,
+        evolvers: [ 117, 80, 91, 97, 102 ]
+    },
+    2208: {
+        evolution: 2209,
+        evolvers: [ 117, 82, 93, 99, 104 ]
+    },
+    2210: {
+        evolution: 2211,
+        evolvers: [ 115, 116, 117, 118, 103 ]
+    },
+    2212: {
+        evolution: 2213,
+        evolvers: [ 117, 78, 89, 89, 100 ]
+    },
+    2214: {
+        evolution: 2215,
+        evolvers: [ 117, 87, 92, 98, 103 ]
+    },
+    2216: {
+        evolution: 2217,
+        evolvers: [ 117, 86, 91, 97, 102 ]
+    },
+    2218: {
+        evolution: 2219,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    1610: {
+        evolution: 2232,
+        evolvers: [ 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel', 'skullEnel' ]
+    },
+    2233: {
+        evolution: 2234,
+        evolvers: [ 1180, 300, 301, 302, 267 ]
+    },
+    2235: {
+        evolution: 2236,
+        evolvers: [ 118, 86, 302, 102, 267 ]
+    },
+    2237: {
+        evolution: 2238,
+        evolvers: [ 266, 95, 1180, 300, 100 ]
+    },
+    2239: {
+        evolution: 2240,
+        evolvers: [ 118, 83, 86, 97, 102 ]
+    },
+    2241: {
+        evolution: 2242,
+        evolvers: [ 94, 1180, 100, 101, 102 ]
+    },
+    2243: {
+        evolution: 2244,
+        evolvers: [ 85, 96, 301, 101, 267 ]
+    },
+    2246: {
+        evolution: 2247,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2248: {
+        evolution: 2249,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    2250: {
+        evolution: 2251,
+        evolvers: [ 118, 98, 1180, 303, 267 ]
+    },
+    2252: {
+        evolution: 2253,
+        evolvers: [ 117, 81, 87, 98, 103 ]
+    },
+    2258: {
+        evolution: 2259,
+        evolvers: [ 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma', 'skullHiguma' ]
+    },
+    2260: {
+        evolution: 2261,
+        evolvers: [ 115, 116, 117, 118, 102 ]
+    },
+    2262: {
+        evolution: 2263,
+        evolvers: [ 118, 267, 88, 304, 83 ]
+    },
+    2264: {
+        evolution: 2265,
         evolvers: [  ]
     },
-    2000: {
-        evolution: 2001,
-        evolvers: [ 118, 84, 266, 300, 100 ]
+    2266: {
+        evolution: 2267,
+        evolvers: [  ]
+    },
+    2268: {
+        evolution: 2269,
+        evolvers: [  ]
+    },
+    2270: {
+        evolution: 2271,
+        evolvers: [  ]
+    },
+    2272: {
+        evolution: 2273,
+        evolvers: [  ]
+    },
+    2274: {
+        evolution: 2275,
+        evolvers: [  ]
+    },
+    2276: {
+        evolution: 2277,
+        evolvers: [  ]
+    },
+    2502: {
+        evolution: 2503,
+        evolvers: [ 118, 86, 266, 302, 267 ]
     },
 };
