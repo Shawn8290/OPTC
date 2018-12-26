@@ -25,6 +25,7 @@
                 switch (SendCtl) {
                    case "SKILL_DESC":
                        var result = GetData(CardNo, SendCtl);
+                               document.open();
                        document.write(JSON.stringify(SendResult(CardNo, SendCtl, result)));
                        document.close();
                    break;
