@@ -26,6 +26,7 @@
                    case "SKILL_DESC":
                        var result = GetData(CardNo, SendCtl);
                        document.write(JSON.stringify(SendResult(CardNo, SendCtl, result)));
+                       document.close();
                    break;
                 }
             });
