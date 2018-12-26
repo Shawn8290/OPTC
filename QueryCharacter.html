@@ -25,7 +25,7 @@
                 switch (SendCtl) {
                    case "SKILL_DESC":
                        var result = GetData(CardNo, SendCtl);
-                       document.write(SendResult(CardNo, SendCtl, result));
+                       document.write(JSON.stringify(SendResult(CardNo, SendCtl, result)));
                    break;
                 }
             });
@@ -40,7 +40,7 @@
             }
         
             function SendResult(CardNo, SendCtl, result) {
-                var json = { "CARD_NO": CardNo, "SEND_CTL": SendCtl, "RESULT": result};
+                var json = { "CARD_NO": CardNo, "SEND_CTL": SendCtl, "data": result};
                 return json;
             }
         </script>
