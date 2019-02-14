@@ -833,9 +833,10 @@ window.drops = {
         },
         
         {
-            name: 'Dressrosa - Royal Palace Top Floor to Town Center',
+            name: 'Dressrosa - The Royal Palace\'s Top Floor to Central Town',
             shortName: 'Dressrosa 4',
             thumb: 2126,
+            global: true,
             nakama: 1212600,
             completion: '10x Rainbow Gems',
             gamewith: 111173,
@@ -876,6 +877,34 @@ window.drops = {
             '11': [ 2231 ],
         },
         
+        {
+            name: 'Chocolat Town to The Seducing Woods',
+            shortName: 'Whole Cake 1',
+            thumb: 2321,
+            nakama: null,
+            completion: '5x Rainbow Gems',
+            gamewith: 131692,
+            '01': [ 2317 ],
+            '02': [  ],
+            '03': [  ],
+            '04': [ 2314 ],
+            '05': [ 2128 ],
+            '06': [ 2318 ],
+            '07': [ 2127 ],
+            '08': [ 2320 ],
+            '09': [ 2319 ],
+            '10': [ 2319 ],
+            '11': [ 2320 ],
+        },
+        
+        /*{
+            name: 'Outside of Town to Bege\'s Hideout',
+            shortName: 'Whole Cake 2',
+            thumb: null,
+            nakama: null,
+            completion: '5x Rainbow Gems',
+            gamewith: null,
+        },*/
     ], 
 
     'Booster and Evolver Island': [
@@ -1893,7 +1922,7 @@ window.drops = {
             nakama: 2173500,
             gamewith: 66021,
             condition: 'Limited amount of turns to complete the mission.',
-            'All Difficulties': [ 1734, 1736, -1571, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1351 ]
+            'All Difficulties': [ 1734, 1736, -1571, -2372, -1573, -1654, -641, -1182, -1188, -1210, -556, -964, -1351 ]
         },
         
         {
@@ -1913,7 +1942,7 @@ window.drops = {
             nakama: 2177400,
             condition: 'Shooter and Free Spirit characters get a boost (1.2x ATK, HP and RCV boost on 30 stamina)',
             gamewith: 68608,
-            'All Difficulties': [ 1773, 1775, -963, -1588, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
+            'All Difficulties': [ 1773, 1775, -963, -1588, -2245, -451, -1186, -528, -1177, -1208, -558, -1616, -1618, -1392 ]
         },
         
         {
@@ -1951,7 +1980,7 @@ window.drops = {
             global: true,
             nakama: 2185500,
             gamewith: 79678,
-            'All Difficulties': [ 1854, 1856, -1652, -1272, -1278, -1621, -1702, -1558 ]
+            'All Difficulties': [ 1854, 1856, -1652, -2373, -1272, -1278, -1621, -1702, -1558 ]
         },
         
         {
@@ -2047,8 +2076,9 @@ window.drops = {
         },
         
         {
-            name: 'Germa\'s Lineage Factor!',
+            name: 'The Germa Bloodline Elements',
             thumb: 2056,
+            global: true,
             nakama: 2205600,
             gamewith: 99699,
             'All Difficulties': [ 2056, 2057, 2058, -1880, -1434, -1412, -1906, -1908, -1859, -1637 ]
@@ -2057,6 +2087,7 @@ window.drops = {
         {
             name: 'Strawhat Pirates Pizza Party!! Lunch',
             thumb: 2087,
+            global: true,
             nakama: 2208700,
             gamewith: 102409,
             'All Difficulties': [ 2087, 2088, 2089, 2090, 2091, -1910, -1440, -1442, -1895, -1902, -1714 ]
@@ -2065,38 +2096,43 @@ window.drops = {
         {
             name: 'Strawhat Pirates Pizza Party!! Dinner',
             thumb: 2092,
+            global: true,
             nakama: 2209200,
             gamewith: 106868,
-            'All Difficulties': [ 2091, 2092, 2093, 2094, 2095, -1935, -1436, -1438, -1926, -1955, -1715 ]
+            'All Difficulties': [ 2091, 2092, 2093, 2094, 2095, -1935, -2300, -1436, -1438, -1926, -1955, -1715 ]
         },
         
         {
-            name: 'Brûlée\'s Gibier Party',
+            name: 'Brûlée\'s Cauldron Party',
             thumb: 2127,
+            global: true,
             nakama: 2212700,
             gamewith: 108421,
             'All Difficulties': [ 2127, 2128, 2129, 2130, -1473, -1477, -1974, -1953, -1957, -1717 ]
         },
         
         {
-            name: 'Coliseum Executioner! Diamante',
+            name: 'Coliseum Executioner!',
             thumb: 2146,
+            global: true,
             nakama: 2214600,
             gamewith: 109800,
             'All Difficulties': [ 2143, 2145, -2013, -1991, -1989, -1951, -1718, -1475 ]
         },
         
         {
-            name: 'Baby 5\'s Journey to Become a Bride',
+            name: 'Baby 5\'s Wedding Plans',
             thumb: 2165,
+            global: true,
             nakama: 2216500,
             gamewith: 111404,
             'All Difficulties': [ 2166, 2164, -1985, -1987, -1993, -1719, -1479, -1481 ]
         },
         
         {
-            name: 'Let\'s Go See Master Nekomamushi!',
+            name: 'Let\'s Go See The Cat Viper!',
             thumb: 2177,
+            global: true,
             nakama: 2217700,
             gamewith: 114148,
             'All Difficulties': [ 2176, 2178, 2179, -2048, -2029, -1883, -1483, -1353, -1785 ]
@@ -2111,11 +2147,51 @@ window.drops = {
         },
         
         {
-            name: 'Pound and King Baum',
+            name: 'Lets Play! The Seducing Woods',
             thumb: 2253,
-            nakama: null,
+            nakama: 2225300,
             gamewith: 118916,
             'All Difficulties': [ 2252, 2254, 2255, -2023, -2025, -1959, -2082, -2080, -2068, -1782, -1781 ]
+        },
+        
+        {
+            name: 'The Genius Jester! Buggy\'s Festival!',
+            thumb: 2277,
+            nakama: null,
+            gamewith: 121547,
+            'All Difficulties': [ 2276, 2278, 2279, -2074, -2363, -2076, -2078, -2072, -2050, -2115, -1784, -2053 ]
+        },
+        
+        {
+            name: 'Forces of Rage - Amande and Bobbin',
+            thumb: 2327,
+            nakama: null,
+            gamewith: 127786,
+            'All Difficulties': [ 2326, 2328, -2099, -2101, -2103, -2113, -2117, -2119, -2002, -2005 ]
+        },
+        
+        {
+            name: 'Banquet! The Best Tea Party Ever!',
+            thumb: 2351,
+            nakama: null,
+            gamewith: 133025,
+            'All Difficulties': [ 2350, 2351, 2352, -2055, -2105, -2107, -2121, -2126, -2004, -2148, -2181, -2350 ]
+        },
+        
+        {
+            name: 'Our Lady\'s Motherly Love',
+            thumb: 2377,
+            nakama: null,
+            gamewith: null,
+            'All Difficulties': [ 2376, 2378, 2379, -2234, -2201, -2203, -2242, -2161, -2244 ]
+        },
+        
+        {
+            name: 'Cavendish\'s Rose Colored Melancholy',
+            thumb: 2428,
+            nakama: null,
+            gamewith: 141693,
+            'All Difficulties': [ 2427, 2429, -2236, -2265, -2205, -2238, -2267, -2269, -2125, -2240 ]
         },
         
     ],
@@ -2163,6 +2239,16 @@ window.drops = {
             gamewith: 5905,
             slefty: 'raid_bosses/5',
             Master: [ 113, 118, 262, 264, 305 ],
+        },
+
+        {
+            name: 'Clash Neo!! Vice-Admiral Garp',
+            thumb: 2511,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            condition: 'Master: Fighter/Slasher/Shooter Only',
+            Master: [ 2510 ],
         },
 
         {
@@ -2359,6 +2445,7 @@ window.drops = {
         {
             name: 'Clash Neo!! Pirate Empress Hancock',
             thumb: 2070,
+            global: true,
             nakama: 4207000,
             gamewith: 102084,
             condition: '1 Master version and 3 Ultimate versions with different conditions. Master: Slasher/Free Spirit/Cerebral Only. Ultimate: Slasher Only, Free Spirit Only, and Cerebral Only. Can only complete 7 times each per day. Can drop +10 Cotton Candy and Forbidden Tomes.',
@@ -2380,6 +2467,7 @@ window.drops = {
         {
             name: 'Clash Neo!! Pica',
             thumb: 1647,
+            global: true,
             nakama: 4164700,
             gamewith: 60095,
             condition: '1 Expert version and 3 different Master versions with different conditions. Expert: Powerhouse/Driven/Slasher Only. Master: Powerhouse Only, Driven Only, and Slasher Only',
@@ -2628,6 +2716,7 @@ window.drops = {
         {
             name: 'Clash!! Zoro',
             thumb: 2097,
+            global: true,
             nakama: 4209700,
             gamewith: 105734,
             Ultimate: [ 2096 ],
@@ -2638,6 +2727,7 @@ window.drops = {
         {
             name: 'Clash!! Cracker',
             thumb: 2158,
+            global: true,
             nakama: 4215800,
             gamewith: 110184,
             Ultimate: [ 2157 ],
@@ -2648,6 +2738,7 @@ window.drops = {
         {
             name: 'Clash!! "Blackbeard" Teach',
             thumb: 2197,
+            global: true,
             nakama: 4219700,
             gamewith: 115114,
             Ultimate: [ 2196 ],
@@ -2664,6 +2755,55 @@ window.drops = {
             Master: [ 2262 ],
             Expert: [ 2262 ]
         },
+        
+        {
+            name: 'Clash!! Judge',
+            thumb: 2281,
+            nakama: null,
+            gamewith: 121664,
+            Ultimate: [ 2280 ],
+            Master: [ 2280 ],
+            Expert: [ 2280 ]
+        },
+        
+        {
+            name: 'Clash!! Arlong',
+            thumb: 2356,
+            nakama: null,
+            gamewith: 134190,
+            Master: [ 2355 ],
+            Expert: [ 2355 ]
+        },
+        
+        {
+            name: 'Clash!! Big Emperor',
+            thumb: 2398,
+            nakama: null,
+            gamewith: 140044,
+            Master: [ 2395, 2396, 2397, -2398 ],
+            Expert: [ 2395, 2396, 2397, -2398 ]
+        },
+        
+        {
+            name: 'Clash!! Sengoku & Garp',
+            thumb: 2507,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2506 ],
+            Expert: [ 2506 ]
+        },
+        
+        {
+            name: 'Showdown!! Shanks & Mihawk',
+            thumb: 2513,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            Master: [ 2512 ],
+            Expert: [ 2512 ],
+            Ultimate: [ 2512 ],
+        },
 
     ],
 
@@ -2676,7 +2816,7 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 952, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1293, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1421, 1423, 1455, 1457, 1486, 1488, 1525, 1526, 1528, 1552, 1554, 1583, 1585, 1601, 1603, 1627, 1629, 1666, 1693, 1732, 1791, 1827, 1860, 1896, 1944, 1977, 2036, 2110, 2122, 2162, 2192, 2248, 2288, 2322, 2353, 2374, 2415 ],
             Neo: [ 1862, 1898, 1975, 2016 ]
         },
         
@@ -2686,7 +2826,7 @@ window.drops = {
             global: true,
             gamewith: 17473,
             slefty: 'coliseums',
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2036, 2110, 2162, 2192, 2248 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1103, 1105, 1195, 1197, 1221, 1252, 1253, 1293, 1311, 1339, 1340, 1377, 1402, 1423, 1424, 1457, 1459, 1488, 1490, 1526, 1528, 1552, 1585, 1603, 1629, 1791, 1860, 1896, 1977, 2036, 2110, 2162, 2192, 2248, 2288 ],
         },
         
         {
@@ -2778,6 +2918,7 @@ window.drops = {
         {
             name: 'Big Mom',
             thumb: 2109,
+            global: true,
             nakama: 8210900,
             gamewith: 105881,
             'Sweet Sea': [ 2108 ]
@@ -2786,6 +2927,7 @@ window.drops = {
         {
             name: 'Crocodile',
             thumb: 2137,
+            global: true,
             nakama: 8213700,
             gamewith: 109127,
             'Primordial Sea': [ 2136 ]
@@ -2794,6 +2936,7 @@ window.drops = {
         {
             name: 'Jack',
             thumb: 2175,
+            global: true,
             nakama: 8217500,
             gamewith: 112951,
             'Raging Sea': [ 2174 ]
@@ -2802,6 +2945,7 @@ window.drops = {
         {
             name: 'Kami Enel',
             thumb: 2211,
+            global: true,
             nakama: 8221100,
             gamewith: 116377,
             'Raging Sea': [ 2210 ]
@@ -2810,9 +2954,41 @@ window.drops = {
         {
             name: 'Red Hair Shanks',
             thumb: 2261,
-            nakama: null,
+            nakama: 8226100,
             gamewith: 119738,
-            'Raging Sea': [ 2260 ]
+            'Primordial Sea': [ 2260 ]
+        },
+
+        {
+            name: 'Boa Hancock',
+            thumb: 2299,
+            nakama: 8229900,
+            gamewith: 123536,
+            'Raging Sea': [ 2298 ]
+        },
+
+        {
+            name: 'Trafalgar Law',
+            thumb: 2336,
+            nakama: 8233600,
+            gamewith: 128733,
+            'Calm Sea': [ 2335 ]
+        },
+
+        {
+            name: 'Cat Burglar Nami',
+            thumb: 2362,
+            nakama: null,
+            gamewith: 134017,
+            'Winter Sea': [ 2361, 9025 ]
+        },
+
+        {
+            name: 'Kaido',
+            thumb: 2387,
+            nakama: null,
+            gamewith: null,
+            'Raging Sea': [ 2386 ]
         },
         
     ],
@@ -2862,11 +3038,20 @@ window.drops = {
         },
         
         {
-            name: 'Halloween Event Characters',
+            name: 'Dead or Treat!! Monster\'s Party',
             thumb: 1300,
             global: true,
             nakama: 6130000,
+            gamewith: 44161,
             'All Difficulties': [ 1299, 1305, 1325 ],
+        },
+        
+        {
+            name: 'Dead or Treat!! Sweetie Party',
+            thumb: 2292,
+            gamewith: 122996,
+            condition: 'Katakuri: Can not use characters who are both Driven and Powerhouse classes.',
+            'All Difficulties': [ 2291, 2293 ],
         },
         
         {
@@ -2953,7 +3138,25 @@ window.drops = {
             nakama: 6184600,
             gamewith: 75260,
             condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Garp.',
-            'All Difficulties': [ 1845, 9010, 9011, 9012, 9013, 9014 ]
+            'All Difficulties': [ 1845, 771, 772, 9010, 9011, 9012, 9013, 9014 ]
+        },
+        
+        {
+            name: 'Invasion! Sengoku',
+            thumb: 2283,
+            nakama: 6228300,
+            gamewith: 122270,
+            condition: 'Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Sengoku.',
+            'All Difficulties': [ 2282, 1845, 9010, 9011, 9012, 9013, 9014 ]
+        },
+        
+        {
+            name: 'Invasion! Charlotte Linlin',
+            thumb: 2381,
+            nakama: null,
+            gamewith: 136823,
+            condition: 'Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the Raid boss to fight Charlotte Linlin.',
+            'All Difficulties': [ 2380, 9010, 9011, 9012, 9013, 9014 ]
         },
         
         {
@@ -3027,15 +3230,32 @@ window.drops = {
         },
         
         {
-            name: 'Battle Blitz! Akainu vs Aokiji',
+            name: 'Face Off! Akainu vs Aokiji',
             thumb: 2023,
             global: true,
             nakama: 6202300,
-            gamewith: null,
+            gamewith: 98096,
             condition: 'Chance of dropping the Silver Almighty Manual, Traning Potions, Guilding Fragments, Guilding Crystals and Guilding Jewels.',
             'Aokiji': [ -2023 ],
             'Akainu' : [ -2025 ],
             'Chopperman Missions': [ 2042 ],
+        },
+        
+        {
+            name: 'Face Off! Luffy vs Katakuri',
+            thumb: 2363,
+            gamewith: 136731,
+            condition: 'Chance of dropping the Support Medallions.',
+        },
+        
+        {
+            name: 'World Clash!',
+            thumb: 2407,
+            global: true,
+            nakama: null,
+            gamewith: 130091,
+            condition: 'Chance of dropping the Forbidden Tomes and Almighty Manuals.',
+            'Chopperman Missions': [ 2408 ],
         },
         
         {
@@ -3062,7 +3282,7 @@ window.drops = {
             nakama: 6158800,
             gamewith: 56742,
             showManual: true,
-            condition: 'High chance of dropping 6* skillbooks. Only Evolvers and Booster characters will drop posters.',
+            condition: 'High chance of dropping 6* Manuals. Only Evolvers and Booster characters will drop posters.',
             'Black Clad Shanks': [ 301, 101, 96, 79, 90, 348, -530, -1707, -316, -910, -995, -1236, -1364, -465, -590, -967, -813, -888 ],
             'Donquixote Doflamingo': [ 304, 104, 88, 99, 82, 93, 351, -870, -312, -645, -838, -876, -880, -1190, -396, -586, -631, -567 ],
             'Trafalgar Law': [ 300, 100, 84, 95, 78, 89, 347, -964, -1045, -219, -308, -675, -991, -1077, -504, -1159, -212, -892 ],
@@ -3096,17 +3316,29 @@ window.drops = {
             nakama: 6207600,
             gamewith: null,
             showManual: true,
-            condition: 'High chance of dropping 6* skillbooks.',
+            condition: 'High chance of dropping 6* Manuals.',
             'Blackbeard': [ -261, -649, -1268, -1413, -1698, -251, -255, -259, -449, -455, -647, -1186, -1190, -1270, -1272, -1276, -1278 ],
             'Zoro': [ -718, -1085, -1362, -1391, -1881, -1921, -2035, -310, -314, -357, -359, -361, -363, -365, -1540, -1612, -1616, -1618, -1706 ],
             'Shirahoshi': [ -720, -935, -1434, -1473, -1880, -1927, -2066, -1436, -1438, -1440, -1442, -1444, -14475, -1477, -1479, -1481, -1483, -1700 ],
-            'Nekomamushi': [ -530, -748, -1571, -1652, -1663, -1707, -524, -1119, -558, -1208, -1370, -16, -1446, -1573, -1828, -1577, -1579, -1660, -1658, -1656, -1654 ],
+            'Nekomamushi': [ -530, -748, -1571, -2372, -1652, -2373, -1663, -1707, -524, -1119, -558, -1208, -1370, -16, -1446, -1573, -1828, -1577, -1579, -1660, -1658, -1656, -1654 ],
             'Trafalgar Law': [ -1001, -1045, -1751, -1763, -1922, -2001, -840, -842, -844, -846, -872, -874, -876, -878, -993, -999, -1749, -1875 ],
             'Akainu': [ -459, -1192, -1240, -1314, -1764, -1847, -2034, -750, -752, -754, -756, -758, -760, -838, -1230, -1316, -1322, -1324, -1614 ],
             'Monkey D. Luffy': [ -416, -1404, -1445, -1532, -1543, -1593, -1747, -671, -673, -906, -910, -520, -1115, -1364, -1368, -1534, -1536, -1741, -1743, -1745 ],
             'Lucy': [ -562, -578, -669, -1121, -1492, -1794, -1816, -641, -1025, -1029, -1033, -1079, -1125, -1129, -1798, -1800, -1802, -1873, -1877 ],
             'Fujitora': [ -870, -1035, -1123, -1869, -1928, -995, -1232, -1234, -1236, -1238, -1318, -1320, -1796, -1871, -1904, -1906, -1908 ],
-            'Judge': [ -367, -1588, -1610, -2232, -1619, -1832, -2138, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -2139, -1836, -2140, -1838, -2141, -1840, -2142 ],
+            'Judge': [ -367, -1588, -2245, -1610, -2232, -1619, -1832, -2138, -410, -675, -677, -912, -937, -560, -1212, -1542, -1702, -1834, -2139, -1836, -2140, -1838, -2141, -1840, -2142 ],
+        },
+        
+        {
+            name: 'Champion Challenge! Charlotte Family',
+            thumb: 2113,
+            global: true,
+            nakama: null,
+            gamewith: null,
+            showManual: true,
+            condition: 'Chance to get Manuals for the first Charlotte Family batch. Only Boosters will drop posters.',
+            Ultimate: [ -2113, -2115, -2117, -2119, -2121 ],
+            Expert: [ -2113, -2115, -2117, -2119, -2121 ],
         },
         
         {
@@ -3165,6 +3397,7 @@ window.drops = {
         {
             name: 'Prepare for Battle! Aokiji and Akainu!',
             thumb: 1280,
+            global: true,
             nakama: 6128001,
             gamewith: 98232,
             'Aokiji': [ 298, 1225, 1226, 1280, 1281 ],
@@ -3172,8 +3405,9 @@ window.drops = {
         },
         
         {
-            name: 'Germa Revival Plan!',
+            name: 'Germa Resurrection Plan!',
             thumb: 2138,
+            global: true,
             nakama: 6128001,
             gamewith: 109674,
             showManual: true,
@@ -3181,16 +3415,17 @@ window.drops = {
         },
         
         {
-            name: 'Kami\'s Return',
+            name: 'Kami Rises Again',
             thumb: 2232,
+            global: true,
             nakama: null,
             gamewith: 117538,
             showManual: true,
-            'All Difficulties': [ 9021, -545, -602, -1896, -1929 ],
+            'All Difficulties': [ 9021, 545, -546, 602, -603, 1896, -1897, 1929, -1930 ],
         },
         
         {
-            name: 'Higuma Skull Island',
+            name: 'Higuma - The Bandit Who Rowed Out to Sea',
             thumb: 2259,
             nakama: null,
             gamewith: 119604,
@@ -3198,11 +3433,20 @@ window.drops = {
         },
         
         {
-            name: 'Garp Challenge!',
-            thumb: 1318,
-            nakama: 6213800,
-            gamewith: 108237,
-            condition: "The Gamewith Link is only for the most recent Garp Challenge (Fist)",
+            name: 'Push Forward! Straw Hat Crew!',
+            thumb: 2300,
+            nakama: null,
+            gamewith: 124622,
+            showManual: true,
+            'All Difficulties': [ 9023, 9024, -1935, -2300, -1588, -2245, -912, -943, -1364, -1368 ],
+        },
+        
+        {
+            name: 'Clash!! Enel [Extra]',
+            thumb: 603,
+            gamewith: 138206,
+            'All Difficulties': [ 602 ],
+            condition: "Chance of dropping the Support Medallions.",
         },
         
         {
@@ -3226,17 +3470,35 @@ window.drops = {
         {
             name: '3 Stamina Ranking! Vs Jinbe',
             thumb: 1700,
+            global: true,
             nakama: 6170000,
             gamewith: 107881,
-            condition: "Challenge: Characters with a cost of 50 or below. Crew's Special gauge is maxed",
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
         },
         
         {
             name: '3 Stamina Ranking! Vs Kyros',
             thumb: 1873,
+            global: true,
             nakama: 6187300,
             gamewith: 111278,
-            condition: "Challenge: Characters with a cost of 50 or below. Crew's Special gauge is maxed",
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Sanji',
+            thumb: 912,
+            nakama: null,
+            gamewith: 120486,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
+        },
+        
+        {
+            name: '3 Stamina Ranking! Vs Jack',
+            thumb: 2175,
+            nakama: null,
+            gamewith: 133004,
+            condition: "Challenge: Characters with a cost of 49 or below. Crew's Special gauge is maxed",
         },
    ],
 
@@ -3360,7 +3622,7 @@ window.drops = {
         
         {
             name: 'Forest of Training: Gang',
-            thumb: 1016,
+            thumb: 2229,
             nakama: 7101600,
             gamewith: 107299,
             completion: 'Ship: Nostra Castello',
@@ -3368,7 +3630,7 @@ window.drops = {
         
         {
             name: 'Forest of Training: Mother',
-            thumb: 1016,
+            thumb: 2234,
             nakama: null,
             gamewith: 118924,
             completion: 'Ship: Queen Mama Chanter',
