@@ -1,10 +1,5 @@
-$(document).ready(function () {
-    var vstrCardNo = $.url.param("CardNo");
-    if (vstrCardNo.length > 0) {
-        $("#txtCardNo").val(vstrCardNo);
-        Process(vstrCardNo + '############');
-    }
 
+$(document).ready(function () {
     var detailWin = $("#detail-window").kendoWindow({
         width: '100%',
         title: '詳細說明',
@@ -572,5 +567,11 @@ $(document).ready(function () {
             rtnValue += value[i];
         }
         return rtnValue;
+    }
+
+    var vstrCardNo = $.url.param("CardNo");
+    if (vstrCardNo.length > 0) {
+        $("#txtCardNo").val(vstrCardNo);
+        Process(vstrCardNo + '############');
     }
 });
