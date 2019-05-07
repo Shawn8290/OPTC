@@ -572,6 +572,6 @@ $(document).ready(function () {
     var vstrCardNo = $.url.param("CardNo");
     if (vstrCardNo.length > 0) {
         $("#txtCardNo").val(vstrCardNo);
-        Process(vstrCardNo + '############');
+        Search();
     }
 });
