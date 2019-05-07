@@ -2,7 +2,9 @@
 $(document).ready(function () {
     var detailWin = $("#detail-window").kendoWindow({
         width: '100%',
+        height: '100%',
         title: '詳細說明',
+        scrollable: true,
         visible: false,
         actions: [
             'Close'
@@ -174,7 +176,7 @@ $(document).ready(function () {
         if ((TypeValue === '')
             && (ClassValue === '')
             && (StarsValue === '')
-            && (CostValue === 'All')
+            && (CostValue === '')
             && (socketsValue === '')
             && (dropsValue === '')
             && (CardNo.trim() === '')) {
