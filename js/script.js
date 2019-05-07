@@ -6,7 +6,7 @@ $(document).ready(function () {
     }
 
     var detailWin = $("#detail-window").kendoWindow({
-        width: '750px',
+        width: '100%',
         title: '詳細說明',
         visible: false,
         actions: [
