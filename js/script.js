@@ -97,12 +97,14 @@ $(document).ready(function () {
             { field: "CardNo", title: "ID", width: "10%" },
             {
                 field: "Icon", title: "圖像", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
                 , template: function (dataItem) {
                     return dataItem.Icon;
                 }
             },
             {
                 field: "Type", title: "屬性", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
                 , template: function (dataItem) {
                     return dataItem.Type;
                 }
@@ -113,18 +115,30 @@ $(document).ready(function () {
                     return dataItem.Class;
                 }
             },
-            { field: "Stars", title: "★數", width: "10%" },
-            { field: "Cost", title: "cost", width: "10%" },
-            { field: "Sockets", title: "插槽數", width: "10%" },
-            { field: "MAXLV", title: "最大等級", width: "10%" },
+            {
+                field: "Stars", title: "★數", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
+            },
+            { field: "Cost", title: "Cost", width: "10%" },
+            {
+                field: "Sockets", title: "插槽數", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
+            },
+            {
+                field: "MAXLV", title: "最大等級", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
+            },
             {
                 field: "Status", title: "體力<br>攻擊<br>回復", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
                 , template: function (dataItem) {
                     return dataItem.Status;
                 }
             },
             {
-                field: "SkillCD", title: "技能CD", width: "10%", template: function (dataItem) {
+                field: "SkillCD", title: "技能CD", width: "10%"
+                , headerAttributes: { style: "white-space: normal" }
+                , template: function (dataItem) {
                     return dataItem.SkillCD;
                 }
             },
