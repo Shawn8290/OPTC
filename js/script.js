@@ -1,5 +1,7 @@
 
 $(document).ready(function () {
+    loadBookData();
+
     var detailWin = $("#detail-window").kendoWindow({
         width: '100%',
         title: '',
@@ -190,6 +192,9 @@ $(document).ready(function () {
         var DropsValue = GetArrToStr($("#ddtDrops").data("kendoDropDownTree").value());
         var CardNo = $("#txtCardNo").val().replace(' ', '**');
 
+        var tvTypeValue = GetArrToStr($("#treeview").data("kendoTreeView").dataSource.view().value());
+        alert(tvTypeValue);
+
         if ((TypeValue === '')
             && (ClassValue === '')
             && (StarsValue === '')
@@ -262,15 +267,14 @@ $(document).ready(function () {
     }
 
     function Icon(id) {
-        var strID = 'f' + ('0000' + id).substr(-4) + '.png';
+        var strID = ('0000' + id).substr(-4);
         return GetIconUrl(strID);
     }
 
     function GetIconUrl(FileName) {
-        var url1 = 'https://onepiece-treasurecruise.com/wp-content/uploads/' + FileName;
-        var url2 = 'https://gamewith.akamaized.net/article_tools/onepiece/gacha/' + FileName;
-        // return '<img class="icon" src="' + url1 + '" onerror=\"this.src=\''+ url2 + '\'\">';
-        return '<img class="icon" src="' + url1 + '" >';
+        var url1 = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + FileName + '.png';
+        var url2 = 'https://onepiece-treasurecruise.com/wp-content/uploads/f0' + FileName + '.png';
+        return '<img class="icon" src="' + url1 + '" onerror=\"this.src=\''+ url2 + '\'\">';
     }
 
     function GetSkull(id) {
@@ -569,9 +573,9 @@ $(document).ready(function () {
     }
 
     function GetData(id, kind) {
-        for (var data in window.CData) {
-            if (window.CData[data]["CARD_NO"] == ('0000' + id.toString()).substr(-4)) {
-                return window.CData[data][kind];
+        for (var data in cardDataFromLocalStorage) {
+            if (cardDataFromLocalStorage[data]["CARD_NO"] == ('0000' + id.toString()).substr(-4)) {
+                return cardDataFromLocalStorage[data][kind];
             }
         }
         return '';
@@ -585,6 +589,14 @@ $(document).ready(function () {
             rtnValue += value[i];
         }
         return rtnValue;
+    }
+
+    function loadBookData(){
+        cardDataFromLocalStorage = JSON.parse(localStorage.getItem("CardData"));
+        if(cardDataFromLocalStorage == null){
+            cardDataFromLocalStorage = window.CData;
+            localStorage.setItem("CardData",JSON.stringify(cardDataFromLocalStorage));
+        }
     }
 
     var vstrCardNo = $.url.param("CardNo");

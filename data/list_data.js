@@ -1,31 +1,31 @@
 var dsType = [
-    { text: "力", value: "STR" },
-    { text: "速", value: "QCK" },
-    { text: "技", value: "DEX" },
-    { text: "心", value: "PSY" },
-    { text: "知", value: "INT" }
+    { text: "力", value: "STR", checked: true },
+    { text: "速", value: "QCK", checked: true },
+    { text: "技", value: "DEX", checked: true },
+    { text: "心", value: "PSY", checked: true },
+    { text: "知", value: "INT", checked: true }
 ];
 
 var dsClass = [
-    { text: "格鬪", value: "Fighter" },
-    { text: "斬擊", value: "Slasher" },
-    { text: "打突", value: "Striker" },
-    { text: "射擊", value: "Shooter" },
-    { text: "自由", value: "Free Spirit" },
-    { text: "博識", value: "Cerebral" },
-    { text: "野心", value: "Driven" },
-    { text: "強韌", value: "Powerhouse" }
+    { text: "格鬪", value: "Fighter", checked: true },
+    { text: "斬擊", value: "Slasher", checked: true },
+    { text: "打突", value: "Striker", checked: true },
+    { text: "射擊", value: "Shooter", checked: true },
+    { text: "自由", value: "Free Spirit", checked: true },
+    { text: "博識", value: "Cerebral", checked: true },
+    { text: "野心", value: "Driven", checked: true },
+    { text: "強韌", value: "Powerhouse", checked: true }
 ];
 
 var dsStars = [
-    { text: "6+", value: "6+" },
-    { text: "6", value: "6" },
-    { text: "5+", value: "5+" },
-    { text: "5", value: "5" },
-    { text: "4", value: "4" },
-    { text: "3", value: "3" },
-    { text: "2", value: "2" },
-    { text: "1", value: "1" }
+    { text: "6+", value: "6+", checked: true },
+    { text: "6", value: "6", checked: true },
+    { text: "5+", value: "5+", checked: true },
+    { text: "5", value: "5", checked: true },
+    { text: "4", value: "4", checked: true },
+    { text: "3", value: "3", checked: true },
+    { text: "2", value: "2", checked: true },
+    { text: "1", value: "1", checked: true }
 ];
 
 var dsCost = [
@@ -35,11 +35,11 @@ var dsCost = [
 ];
 
 var dsSockets = [
-    { text: "5", value: "5" },
-    { text: "4", value: "4" },
-    { text: "3", value: "3" },
-    { text: "2", value: "2" },
-    { text: "1", value: "1" }
+    { text: "5", value: "5", checked: true },
+    { text: "4", value: "4", checked: true },
+    { text: "3", value: "3", checked: true },
+    { text: "2", value: "2", checked: true },
+    { text: "1", value: "1", checked: true }
 ];
 
 var dsDrops = [
