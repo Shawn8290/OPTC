@@ -164,7 +164,10 @@ $(document).ready(function () {
         var row = $(this).closest("tr");;
         var item = grid.dataItem(row);
 
-        detailWin.title("詳細說明 - " + item.CardNo);
+        var id = ('0000' + item.CardNo).substr(-4);
+        detailWin.title("詳細說明 - " + id);
+        var ImgName = "https://onepiece-treasurecruise.com/wp-content/uploads/c" + id + ".png";
+        $(".card-image").attr("src", ImgName);
         $("#lblMAXLV").text(item.MAXLV);
         $("#lblStatus").text(item.Status);
         $("#lblBook").text(item.Book);
@@ -259,8 +262,6 @@ $(document).ready(function () {
     }
 
     function Icon(id) {
-        if (id == '0000')
-            return '<img class="icon" src="icon/icon_arror.jpg">';
         var strID = 'f' + ('0000' + id).substr(-4) + '.png';
         return GetIconUrl(strID);
     }
