@@ -96,7 +96,7 @@ $(document).ready(function () {
         columns: [
             { field: "CardNo", title: "ID", width: "10%" },
             {
-                field: "Icon", title: "圖像", width: "10%"
+                field: "Icon", title: "圖像", width: "20%"
                 , headerAttributes: { style: "white-space: normal" }
                 , template: function (dataItem) {
                     return dataItem.Icon;
@@ -110,7 +110,7 @@ $(document).ready(function () {
                 }
             },
             {
-                field: "Class", title: "Type", width: "10%"
+                field: "Class", title: "Type", width: "20%"
                 , template: function (dataItem) {
                     return dataItem.Class;
                 }
@@ -124,8 +124,8 @@ $(document).ready(function () {
                 field: "Sockets", title: "插槽數", width: "10%"
                 , headerAttributes: { style: "white-space: normal" }
             },
-            { hidden: true, field: "MAXLV", title: "最大等級", width: "10%" },
-            { hidden: true, field: "Status", title: "體力<br>攻擊<br>回復", width: "10-%" },
+            { hidden: true, field: "MAXLV", title: "最大等級", width: "0%" },
+            { hidden: true, field: "Status", title: "體力<br>攻擊<br>回復", width: "0%" },
             {
                 field: "SkillCD", title: "技能CD", width: "10%"
                 , headerAttributes: { style: "white-space: normal" }
