@@ -2,7 +2,7 @@
 $(document).ready(function () {
     var detailWin = $("#detail-window").kendoWindow({
         width: '100%',
-        title: '詳細說明',
+        title: '',
         modal: true,
         scrollable: true,
         visible: false,
@@ -124,17 +124,8 @@ $(document).ready(function () {
                 field: "Sockets", title: "插槽數", width: "10%"
                 , headerAttributes: { style: "white-space: normal" }
             },
-            {
-                field: "MAXLV", title: "最大等級", width: "10%"
-                , headerAttributes: { style: "white-space: normal" }
-            },
-            {
-                field: "Status", title: "體力<br>攻擊<br>回復", width: "10%"
-                , headerAttributes: { style: "white-space: normal" }
-                , template: function (dataItem) {
-                    return dataItem.Status;
-                }
-            },
+            { hidden: true, field: "MAXLV", title: "最大等級", width: "10%" },
+            { hidden: true, field: "Status", title: "體力<br>攻擊<br>回復", width: "10-%" },
             {
                 field: "SkillCD", title: "技能CD", width: "10%"
                 , headerAttributes: { style: "white-space: normal" }
@@ -173,7 +164,9 @@ $(document).ready(function () {
         var row = $(this).closest("tr");;
         var item = grid.dataItem(row);
 
-        $("#lblToGet").text(item.ToGet);
+        detailWin.title("詳細說明 - " + item.CardNo);
+        $("#lblMAXLV").text(item.MAXLV);
+        $("#lblStatus").text(item.Status);
         $("#lblBook").text(item.Book);
         $("#lblLiberation").text(item.Liberation);
         $("#lblSkillDesc").text(item.SkillDesc);
@@ -465,7 +458,7 @@ $(document).ready(function () {
     }
 
     function GetStatus(HP, ATK, CURE) {
-        return HP + '<br>' + ATK + '<br>' + CURE;
+        return HP + '\\' + ATK + '\\' + CURE;
     }
 
     function GetEvolutions(TITLE, VALUE) {
