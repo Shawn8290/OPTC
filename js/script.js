@@ -2,8 +2,8 @@
 $(document).ready(function () {
     var detailWin = $("#detail-window").kendoWindow({
         width: '100%',
-        height: '100%',
         title: '詳細說明',
+        modal: true,
         scrollable: true,
         visible: false,
         actions: [
@@ -139,12 +139,19 @@ $(document).ready(function () {
         ]
     });
 
-    $(".btn-search").click(function () {
+    $(".btn-search").click(function (e) {
+        e.preventDefault();
         Search();
     });
 
-    $(".btn-clear").click(function () {
+    $(".btn-clear").click(function (e) {
+        e.preventDefault();
         Clear();
+    });
+
+    $(".btn-win-close").click(function (e) {
+        e.preventDefault();
+        detailWin.close();
     });
 
     var grid = $("#CardGrid").data("kendoGrid");
@@ -177,13 +184,14 @@ $(document).ready(function () {
             && (ClassValue === '')
             && (StarsValue === '')
             && (CostValue === '')
-            && (socketsValue === '')
-            && (dropsValue === '')
+            && (SocketsValue === '')
+            && (DropsValue === '')
             && (CardNo.trim() === '')) {
-            $('#result').empty();
-            $('#result').hide();
             return;
         }
+
+        $("#CardGrid").data('kendoGrid').dataSource.data([]);
+
         var SelStr = CardNo + '##' + TypeValue + '##' + ClassValue + '##' + StarsValue + '##' + CostValue + '##' + SocketsValue + '##' + DropsValue;
         Process(SelStr);
     }
@@ -572,7 +580,7 @@ $(document).ready(function () {
     }
 
     var vstrCardNo = $.url.param("CardNo");
-    if (vstrCardNo.length > 0) {
+    if (vstrCardNo.length > 0 && grid.dataSource) {
         $("#txtCardNo").val(vstrCardNo);
         Search();
     }
