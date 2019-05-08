@@ -242,6 +242,7 @@ $(document).ready(function () {
                 }
             } catch (e) {
                 alert(CardNo + ', ' + e.toString());
+                return;
             }
         });
     }
@@ -532,39 +533,38 @@ $(document).ready(function () {
     function ChkDrops(id, kind) {
         if (isNaN(id) || kind == '')
             return true;
-
-        for (var type in window.drops) {
-            switch (type) {
-                case 'Story Island':
-                case 'Fortnight':
-                case 'Raid':
-                    if (type == kind.trim()) {
-                        for (var island = 0; island < window.drops[type].length; ++island) {
-                            for (var stage in window.drops[type][island]) {
-                                if (stage == 'thumb' || stage == 'name' || stage == 'shortName' || stage == 'day' || stage == 'global' || stage == 'condition' || stage == 'completion' || stage == 'challenge' || stage == 'challengeData' || stage == 'showManual' || stage == 'gamewith' || stage == 'teamDatabase') continue;
-                                if (window.drops[type][island][stage].indexOf(id) != -1) {
-                                    return true;
+        var rtnValue = false;
+        $.each(window.drops, function (type_kind, type) {
+            if (type_kind == kind.trim()) {
+                $.each(type, function (i, island) {
+                    $.each(island, function (stage_kind, stage) {
+                        switch (stage_kind) {
+                            case 'thumb':
+                            case 'name':
+                            case 'shortName':
+                            case 'day':
+                            case 'global':
+                            case 'condition':
+                            case 'completion':
+                            case 'challenge':
+                            case 'challengeData':
+                            case 'showManual':
+                            case 'gamewith':
+                            case 'teamDatabase':
+                                return;
+                            default:
+                                if ($.inArray(id, stage) != -1) {
+                                    rtnValue = true;
+                                    return false;
                                 }
-                            }
                         }
-                    }
-                    break;
-                case 'Special':
-                    for (var island = 0; island < window.drops[type].length; ++island) {
-                        if (window.drops[type][island].name == kind.trim()) {
-                            for (var stage in window.drops[type][island]) {
-                                if (stage == 'thumb' || stage == 'name' || stage == 'shortName' || stage == 'day' || stage == 'global' || stage == 'condition' || stage == 'completion' || stage == 'challenge' || stage == 'challengeData' || stage == 'showManual' || stage == 'gamewith' || stage == 'teamDatabase') continue;
-                                if (window.drops[type][island][stage].indexOf(id) != -1) {
-                                    return true;
-                                }
-                            }
-                        }
-
-                    }
-                    break;
+                    });
+                    if (rtnValue) return false;
+                });
             }
-        }
-        return false;
+            if (rtnValue) return false;
+        });
+        return rtnValue;
     }
 
     function GetData(id, kind) {
