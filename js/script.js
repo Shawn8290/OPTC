@@ -192,9 +192,6 @@ $(document).ready(function () {
         var DropsValue = GetArrToStr($("#ddtDrops").data("kendoDropDownTree").value());
         var CardNo = $("#txtCardNo").val().replace(' ', '**');
 
-        var tvTypeValue = GetArrToStr($("#treeview").data("kendoTreeView").dataSource.view().value());
-        alert(tvTypeValue);
-
         if ((TypeValue === '')
             && (ClassValue === '')
             && (StarsValue === '')
